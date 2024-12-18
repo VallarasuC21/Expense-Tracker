@@ -1,0 +1,81 @@
+.tracker {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.form input,
+.form select {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.totals {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.totals p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.transaction-list {
+  margin-bottom: 20px;
+}
+
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.transaction.income {
+  background-color: #e8f5e9;
+}
+
+.transaction.expense {
+  background-color: #ffebee;
+}
+
+.transaction button {
+  background-color: transparent;
+  border: none;
+  color: #f44336;
+  cursor: pointer;
+}
+
+.chart {
+  margin-top: 30px;
+}
+
+.chart canvas {
+  max-width: 100%;
+}
